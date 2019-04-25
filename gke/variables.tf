@@ -3,7 +3,7 @@ variable "location" {
 }
 
 variable "project" {
-    default = "suse-css-platform"
+    type = "string"
 }
 
 variable "node_pool_name" {
